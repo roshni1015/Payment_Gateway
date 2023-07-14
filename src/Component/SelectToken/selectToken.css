@@ -1,0 +1,246 @@
+.contanier{
+    position: absolute;
+    min-width: 1440px;
+    min-height: 900px;
+    left: 300px;
+    top: 120px;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    padding-left: 100px;
+    padding-top: 30px;
+    /* Gray/24 */
+
+    background: #09080C;
+    
+}
+
+.select-token{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -4.5%;
+    position: absolute;
+    width: 464px;
+    height: 780px;
+    left: 488px;
+    top: 128px;
+
+    /* Gray/23 */
+    padding-top: 2%;
+    background: #131118;
+    border-radius: 8px;
+}
+.head14{
+    margin-left: 35%;
+    margin-top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.Search-input{
+    width: 200%;
+    height: 150%;
+    margin-left: -3%;
+    border-radius: 10px;
+    padding-left: 5%;
+    color:#A6A0BB;
+    background: #131118;
+   margin-top: 1%;
+}
+.common{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+   margin-top: 11%;
+   margin-left: 5%;
+}
+.inch1{
+     margin: 2%;
+     height: 37px;
+     width: 25%;
+     background: #131118;
+     border-radius: 8px;
+     color: #FFFFFF;
+     font-size: 12px;
+}
+.inch2{
+    margin: 2%;
+    height: 37px;
+    width: 25%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.search{
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 5%; 
+    width: 87%;
+    margin-left: 5%;  
+    margin-top: 6%;
+    background: #131118;
+    color:#A6A0BB;
+    padding-right: 40%;
+    padding-top: 1.5%;
+}
+
+.S-icon{
+    /* display: inline; */
+    margin: 180%;
+    margin-top: -13%;
+}
+.close14{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 25%;
+}
+.token-type{
+    margin-top: 5%;
+    
+    padding: 5%;
+  
+}
+.inch{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 52%;
+    margin-top: -2%;
+
+}
+.APY{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 35%;
+    margin-top: 5%;
+
+}
+.basic{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 35%;
+    margin-top: 5%;
+
+
+}
+.atomic{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 35%;
+    margin-top: 5%;
+
+
+}
+.algo{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 50%;
+    margin-top: 5%;
+
+
+}
+.aeter{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 50%;
+    margin-top: 5%;
+
+
+}
+.ella{
+    padding: 5%; 
+    width: 100%;
+    background: #131118;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 50%;
+    margin-top: 5%;
+
+}
+.number{
+    /* padding-left: 130%; */
+    /* display: inline; */
+    /* text-align: end; */
+    margin-left: 100%;
+    
+}
+
+.manage1 {
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 8%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    width: 384px;
+    height: 48px;
+    padding-top: 1.5%;
+    justify-content: space-around;
+
+    /* Gray/20
+
+0B1033
+*/
+    background: #2F2A3C;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}

@@ -1,0 +1,94 @@
+.container-trans{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 300px;
+    top: 120px;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    padding-left: 100px;
+    padding-top: 30px;
+    /* Gray/24 */
+
+    background: #09080C;
+}
+.trans{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 464px;
+    height: 400px;
+    left: 488px;
+    top: 170px;
+
+    /* Gray/23 */
+
+    background: #131118;
+    border-radius: 8px;
+}
+.trans-text{
+    margin-left: 23%;
+    margin-top: 35%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.para{
+    margin-left: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.icon{
+    color: #FFFFFF;
+
+}
+.cl{
+    margin-left: 95%;
+    margin-top: -2%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.view{
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    width: 384px;
+    height: 48px;
+    padding-top: 2%;
+    justify-content: space-around;
+
+    /* Gray/20
+
+0B1033
+*/
+    background: #2F2A3C;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}

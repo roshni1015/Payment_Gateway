@@ -1,0 +1,265 @@
+.container {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 50px;
+    top: 100px;
+    position: relative;
+    
+    padding-left: 100px;
+    padding-top: 30px;
+    /* Gray/24 */
+
+    background: #09080C;
+    /* //background: url(2-swap.jpg); */
+}
+
+.HeaderJ {
+    width: 90px;
+    height: 32px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28.5714px;
+    line-height: 32px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Gradient/5 */
+
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Header-Swap {
+    width: 46px;
+    height: 24px;
+
+    /* Paragraph/Bold */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    margin-left: 90px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Header-Pool {
+    width: 46px;
+    height: 24px;
+
+    /* Paragraph/Bold */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    margin-left: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.Header-aboutJ {
+    width: 46px;
+    height: 24px;
+
+    /* Paragraph/Bold */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+    margin-left: 50px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.Header-vote {
+    width: 46px;
+    height: 24px;
+
+    /* Paragraph/Bold */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+    margin-left: 50px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.SQA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -2.2%;
+    margin-left: 60%;
+    margin-bottom: 2%;
+    width: 75px;
+    height: 40px;
+
+    /* Gray/22 */
+
+    background: #1C1924;
+    border-radius: 100px;
+
+
+}
+
+.text-SQA {
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -5%;
+    margin-left: 68%;
+    margin-bottom: 2%;
+    width: 161px;
+    height: 40px;
+
+    /* Gray/22 */
+
+    background: #1C1924;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.connect-text {
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}
+
+
+.dark-mode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -5.2%;
+    margin-left: 82.5%;
+    margin-bottom: 2%;
+    width: 56px;
+    height: 40px;
+
+    /* Gray/22 */
+
+    background: #1C1924;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.image-moon {
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -5.3%;
+    margin-left: 88%;
+    margin-bottom: 2%;
+    width: 56px;
+    height: 40px;
+
+    /* Gray/22 */
+
+    background: #1C1924;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+}
+
+.dots {
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}
+

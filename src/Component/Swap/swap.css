@@ -1,0 +1,240 @@
+.container-swap{
+    
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 300px;
+    top: 120px;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    padding-left: 100px;
+    padding-top: 30px;
+    /* Gray/24 */
+
+    background: #09080C;
+    
+
+}
+.swap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 464px;
+    height: 432px;
+    left: 488px;
+    top: 128px;
+
+    /* Gray/23 */
+
+    background: #131118;
+    border-radius: 8px;
+}
+
+.name {
+    position: absolute;
+    width: 57px;
+    height: 28px;
+    left: calc(50% - 57px/2 + 0.5px);
+    /* top: calc(50% - 28px/2); */
+
+    /* Headline/H6 */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.swap-form {
+    min-width: 87px;
+    max-height: 24px;
+    margin-top: 11%;
+    /* Paragraph/Regular */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.swap-to{
+    width: 87px;
+    height: 24px;
+    margin-top: 0%;
+    /* Paragraph/Regular */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.ETH {
+
+    width: 33px;
+    height: 28px;
+    margin-top: -53.5%;
+    margin-left: 77%;
+
+    /* Title-1 */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dropbtn {
+    margin-left: 87%;
+    background: #131118;
+
+    color: white;
+}
+
+.balance {
+    color: #A6A0BB;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin-top: 4%;
+    padding: ;
+    color: #1C1924;
+}
+
+h2 span {
+    padding: 0 10px;
+    color: #FFFFFF;
+    font-size: 70%;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #131118;
+    margin-left: 75%;
+
+}
+
+.balance2 {
+    color: #A6A0BB;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.dropbtn1 {
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 23%;
+    margin-left: 55%;
+    font-style: normal;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 9px;
+    /* identical to box height, or 150% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    /* White */
+    
+    color: #FFFFFF;
+    width: 183px;
+    height: 48px;
+
+    /* Gradient/5 */
+
+    background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.amount{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+margin-left: 5%;
+width: 384px;
+height: 48px;
+
+/* Gray/20
+
+0B1033
+*/
+background: #2F2A3C;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
